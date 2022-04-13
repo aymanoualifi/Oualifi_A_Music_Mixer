@@ -1,6 +1,13 @@
-My Music Mixer.
-Oualifi Ayman
 
-this aesthetical music mixer gives you drums, melodies, bass and voices, by dragging and dropping them into the box that is connected to the speakers. they will be added right after you drop them to the song you making.
+## MY MUSIC MIXER
 
-Coded By Ayman Oualifi using Atom https://atom.io/
+this punk music mixer gives you drums, guitar and bass. by dragging and dropping them into the blue boxes that are connected to the speakers. they will be added right after you drop them to the song you making.
+punk is not dead.
+
+
+### Built with [atom](https://atom.io/)
+
+### License
+MIT
+
+### Autor: Ayman Oualifi.
