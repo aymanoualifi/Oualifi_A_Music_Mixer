@@ -6,7 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="css/reset.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700%7CZCOOL+KuaiLe" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
@@ -14,66 +13,24 @@
 <body>
 <h1 class="hidden">my music mixer</h1>
 
-		<section id="gameArea">
-		<h2 class="hidden">the mixer</h2>
-			<div id="gameCon">
-				<nav id="music" class="forceCpu">
-				<h3 class="hidden">Music Navigation</h3>
-					<ul>
-						<li><div data-currentsong="song1.mp3" class="songBtn" id="btn1" tabindex="0"><img src="images/11.png" alt="melodie"></div></li>
-						<li><div data-currentsong="song2.mp3" class="songBtn" id="btn2" tabindex="1"><img src="images/11.png" alt="melodie2"></div></li>
-						<li><div data-currentsong="song3.mp3" class="songBtn" id="btn3" tabindex="2"><img src="images/11.png" alt="melodie3"></div></li>
-						<li><div data-currentsong="song4.mp3" class="songBtn" id="btn4" tabindex="4"><img src="images/11.png" alt="melodie4"></div></li>
-					</ul>
-				</nav>
+<section id="Content">
 
-				<div id="enviroCon">
-					<div id="enviroOverlayCon">
-						<div id="controls">
-							<div class="controlsBtn fa" id="pauseButton" tabindex="5"> &#xf04c;</div>
-							<div class="controlsBtn fa" id="rewindButton" tabindex="6">&#xf021;</div>
-						</div>
+	<div id="background">
 
-						<div class="instructions fa">&#xf128;</div>
+		<div class="DropArea">
+			<div class="drop"></div>
+			<div class="drop"></div>
+			<div class="drop"></div>
+		</div>
 
-						<div id="enviro">
-							<div class="dropZone"></div>
-							<div class="dropZone"></div>
-							<div class="dropZone"></div>
-							<div class="dropZone"></div>
-						</div>
-
-						<div class="bgOverlay"></div>
-
-						<div class="titleOverlay forceCpu">
-							<h3 class="titleOverlayText pulsing">My music mixer</h3>
-						</div>
-
-						<div class="enviroOverlay forceCpu">
-							<p class="overlayText">Drag and Drop Here!</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<nav id="drums" class="forceCpu">
-			<h3 class="hidden">my Navigation</h3>
-      
-				<img class="image" id="img1" src="images/11.png" alt="drums" draggable>
-				<img class="image" id="img2" src="images/11.png" alt="drums2" draggable>
-				<img class="image" id="img3" src="images/11.png" alt="drums3" draggable>
-				<img class="image" id="img4" src="images/11.png" alt="drums4" draggable>
-			</nav>
-		</section>
-
-		<audio data-audioref="img1" id="sound1" class="audio" src="audio/12.mp3" loop></audio>
-		<audio data-audioref="img2" id="sound2" class="audio" src="audio/11.mp3" loop></audio>
-		<audio data-audioref="img3" id="sound3" class="audio" src="audio/11.mp3" loop></audio>
-		<audio data-audioref="img4" id="sound4" class="audio" src="audio/11.mp3" loop></audio>
-		<audio class="songs" src="audio/15.mp3" loop></audio>
-
+		<div id="DragArea">
+			<div class="drop thecontainer"><img id="guitar" dragable="true" src="images/guitar.png" class="instrument1" alt="guitar photo"></div>
+			<div class="drop thecontainer"><img id="bass" dragable="true" src="images/bass.png" class="instrument2" alt="bass photo"></div>
+			<div class="drop thecontainer"><img id="drums" dragable="true" src="images/drums.png" class="instrument3" alt="drums photo"></div>
+		</div>
 
 	</div>
+</section>
 
 	<script src="js/main.js"></script>
 </body>
