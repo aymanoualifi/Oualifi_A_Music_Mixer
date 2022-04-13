@@ -48,5 +48,5 @@
   dropAreasOut.forEach(zone => {
      zone.addEventListener("drop", allowDropOut);
   });
-
+a
 })();
